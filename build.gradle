@@ -15,8 +15,8 @@ String getBuildNum() {
 group = 'customskinloader'
 archivesBaseName = 'launchwrapper'
 version = '2.1.' + getBuildNum()
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
 
 dependencies {
     compile 'net.sf.jopt-simple:jopt-simple:4.5'
